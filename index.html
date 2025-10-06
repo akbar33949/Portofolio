@@ -1,38 +1,66 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portofolio Muhammad Akbar Raihansyah</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <nav>
-      <h1>Muhammad Akbar Raihansyah</h1>
-      <ul>
-        <li><a href="index.html">Beranda</a></li>
-        <li><a href="projects.html">Proyek</a></li>
-        <li><a href="#kontak">Kontak</a></li>
+    <nav class="navbar">
+      <h1 class="logo"><span>Rini</span> Astui</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
+      <a href="#contact" class="btn">Contact</a>
     </nav>
   </header>
 
   <section class="hero">
-    <img src="https://via.placeholder.com/120" alt="Foto Profil" class="profile-img" />
-    <h2>👋 Halo, saya Muhammad Akbar Raihansyah</h2>
-    <p>
-      Saya seorang pengembang web yang tertarik dengan desain antarmuka, logika fuzzy,
-      dan pengembangan aplikasi interaktif.
-    </p>
-    <a href="projects.html" class="btn">Lihat Proyek</a>
+    <div class="hero-content">
+      <h2>Rini Astui</h2>
+      <p class="title">Front-End Developer • UI Designer</p>
+      <p class="desc">Saya membangun web yang menarik dan responsif menggunakan HTML, CSS, dan JavaScript. Tertarik pada UI/UX dan desain modern.</p>
+      <div class="buttons">
+        <a href="#projects" class="btn-outline">See Projects</a>
+        <a href="#skills" class="btn-outline">Skills</a>
+        <a href="#contact" class="btn-outline">Contact</a>
+      </div>
+      <div class="tags">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        <span>React</span><span>Next.js</span><span>Figma</span>
+      </div>
+    </div>
   </section>
 
-  <footer id="kontak">
-    <h3>📫 Kontak</h3>
-    <p>Email: <a href="mailto:akbar33949@gmail.com">akbar33949@gmail.com</a></p>
+  <section id="about" class="card">
+    <h3>About</h3>
+    <p>Saya seorang mahasiswa dan web developer dengan fokus pada pengembangan antarmuka pengguna yang modern dan efisien. Memiliki ketertarikan pada teknologi web, desain UI/UX, dan proyek berbasis komunitas.</p>
+  </section>
+
+  <section id="skills" class="card">
+    <h3>Core Focus</h3>
+    <ul>
+      <li>⚙️ Front-End Development (HTML, CSS, JS, React)</li>
+      <li>🎨 UI/UX Design (Figma, Tailwind CSS)</li>
+      <li>📊 Basic Data Visualization</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="card">
+    <h3>Contact</h3>
+    <p>Email: <a href="mailto:akbar33949@gmail.co">akbar33949@gmail.com</a></p>
     <p>GitHub: <a href="https://github.com/akbar33949" target="_blank">github.com/akbar33949</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Muhammad Akbar Raihansyah • All Rights Reserved</p>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
