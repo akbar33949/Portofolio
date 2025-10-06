@@ -282,3 +282,56 @@ footer {
   background-color: #1f6feb;
   color: white;
 }
+/* ========================= */
+/* 🌞 MODE TERANG (LIGHT MODE) */
+/* ========================= */
+body.light-mode {
+  background-color: #f6f8fa;
+  color: #24292f;
+}
+
+body.light-mode .navbar {
+  background-color: #ffffff;
+  color: #24292f;
+  border-bottom: 1px solid #d0d7de;
+}
+
+body.light-mode .navbar a {
+  color: #24292f;
+}
+
+body.light-mode .navbar a:hover {
+  color: #0969da;
+}
+
+body.light-mode .card,
+body.light-mode .project-card {
+  background-color: #ffffff;
+  border: 1px solid #d0d7de;
+  color: #24292f;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode h2, 
+body.light-mode h3 {
+  color: #0969da;
+}
+
+body.light-mode .btn {
+  background-color: #0969da;
+}
+
+body.light-mode .btn:hover {
+  background-color: #0550ae;
+}
+
+body.light-mode footer {
+  background-color: #f6f8fa;
+  color: #57606a;
+  border-top: 1px solid #d0d7de;
+}
+
+/* Tambahkan transisi halus agar perpindahan lebih lembut */
+body, .navbar, .card, footer {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
